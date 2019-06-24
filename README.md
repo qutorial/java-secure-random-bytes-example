@@ -53,8 +53,10 @@ Length of base 64 encoded bytes: 88
 
 ## Storing the random bytes
 
-As explained above, you could store the Base64 encoded 88 bytes string or 
-binary(64) - fixed length binary type in DBs supporting it.
+As explained above, you could store the Base64 encoded 88 bytes string.
+A fixed length can be used, BASE64 encoding will always provide the same result length.
+
+Alternatively binary(64) - fixed length binary type in DBs supporting it.
 
 
 
